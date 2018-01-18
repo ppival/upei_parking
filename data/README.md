@@ -5,8 +5,8 @@
 **upei-parking-permits-201705-to-201712.csv** is a cleaned up version of the Excel file as a CSV:
 
 
-1.     I removed 7 records that were missing a model year for the vehicle.
-1.     I converted the model years to four-digit dates.
-1.     I trimmed spaces from the ends of the vehicle information rows (it looks like their were exported originally as a fixed-width file, with spaces for padding).
-1.     I removed the anonymous identifier column, as I didn’t required it for my purposes.
-1.     I split the “vehicle information” field into 3 fields: year, make and model (this is what I’d originally specified in my request, but they came as one field). In doing so I found there were several records that were missing the model, but I left them in place with only the year and make.
+- I removed 7 records that were missing a model year for the vehicle.
+- I converted the model years to four-digit dates.
+- I trimmed spaces from the ends of the vehicle information rows (it looks like their were exported originally as a fixed-width file, with spaces for padding).
+- I removed the anonymous identifier column, as I didn’t required it for my purposes.
+- I split the “vehicle information” field into 3 fields: year, make and model (this is what I’d originally specified in my request, but they came as one field). In doing so I found there were several records that were missing the model, but I left them in place with only the year and make.
