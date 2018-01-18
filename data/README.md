@@ -1,9 +1,8 @@
 # Data Files
 
-**Parking Permit Information 2018-01-16 08_47.xlsx** is the Excel file that I received from the University of PEI in response to my Access to Information request. It contains data on student parking permits issues from May 2017 to December 2017.
+**[Parking Permit Information 2018-01-16 08_47.xlsx](Parking Permit Information 2018-01-16 08_47.xlsx)** is the Excel file that I received from the University of PEI in response to my Access to Information request. It contains data on student parking permits issues from May 2017 to December 2017.
 
 **upei-parking-permits-201705-to-201712.csv** is a cleaned up version of the Excel file as a CSV:
-
 
 - I removed 7 records that were missing a model year for the vehicle.
 - I converted the model years to four-digit dates.
